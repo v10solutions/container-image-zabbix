@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#
+# Container Image Zabbix
+#
+
+set -o "errexit"
+set -o "nounset"
+set -o "pipefail"
+
+zabbix_server -R "ha_status"

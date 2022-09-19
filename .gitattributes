@@ -1,0 +1,10 @@
+#
+# Container Image Zabbix
+#
+
+etc/httpd/ca.pem binary
+etc/httpd/tls-cer.pem binary
+etc/httpd/tls-key.pem binary
+etc/zabbix/ca.pem binary
+etc/zabbix/tls-cer.pem binary
+etc/zabbix/tls-key.pem binary
